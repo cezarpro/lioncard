@@ -1,0 +1,60 @@
+/* add your CSS here */
+body {
+  color: #313;
+  background: #be9837;
+  font-family: 'Gentium Basic', serif;
+  font-size: 16px;
+}
+
+/* basic elements */
+
+h3 {
+  color: #131007;
+  font-family: 'Raleway', bold;
+  font-size: 1.5em;
+}
+
+/* first paragraph is supposed to be italic */
+p:first-child {
+  font-style: italic;
+}
+
+ul {
+  padding: 3px 0;
+  list-style-type: none;
+}
+
+li span {
+  color: #140b05;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+
+img {
+  border: 2.5px solid #00a151;
+  border-radius: 6px;
+  width: 298px;
+  height: auto;
+}
+
+
+/* content elements */
+
+#card {
+  width: 300px;
+  margin: 20px auto 0;
+  padding: 10px;
+  box-shadow:  0 0 80px 0 rgba(42,44,68,0.5);
+  background-color: #33bfcc;
+
+}
+
+.content {
+  margin: 5 auto;
+  padding: 10px;
+  background-color: #FDFDFD;
+  border: 2px solid #00a151;
+  border-radius: 1px;
+}
